@@ -1,0 +1,11 @@
+<suite name="data-suite">
+	<test name="data-test">
+		<parameter name="browser" value="chrome" />
+		<parameter name="url" value="http://49.249.29.4:8888" />
+		<parameter name="username" value="admin" />
+		<parameter name="password" value="admin" />
+		<classes>
+			<class name="typesOfExecution.XMLOppTest.java" />
+		</classes>
+	</test>
+</suite>
