@@ -69,7 +69,7 @@ public class CreateContactTest {
 		System.out.println(contactName);
 
 		// Open the browser
-//		WebDriver driver = new ChromeDriver();
+
 		WebDriver driver;
 
 		if (browser.equals("chrome")) {
